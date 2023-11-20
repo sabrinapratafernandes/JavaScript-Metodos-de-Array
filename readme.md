@@ -36,6 +36,14 @@ Função que é passada como argumento para outra função.
 - Permite especificar o que deve acontecer após conclusão de uma operação assíncrona;
 - Usada para evento e manipulação de array. 
 
+### Método filter()
+
+Cria um novo array com os elementos que passam passam por um teste implementado por uma função de callback fornecida. 
+
+- Filtra os elementos do array com base em uma condição especifica. 
+
+- Não altera o array original, retorna um novo array apenas com os elementos que atendem a condição especificada. 
+
 
 
 

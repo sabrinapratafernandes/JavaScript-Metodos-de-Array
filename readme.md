@@ -28,6 +28,7 @@ Invoca a função callback passada por argumento para cada elemento do array e d
 - Não altera o array original; 
 - Cria e retorna um novo array.
 
+
 ### Função callback
 
 Função que é passada como argumento para outra função. 
@@ -41,11 +42,26 @@ Função que é passada como argumento para outra função.
 Cria um novo array com os elementos que passam passam por um teste implementado por uma função de callback fornecida. 
 
 - Filtra os elementos do array com base em uma condição especifica. 
-
 - Não altera o array original, retorna um novo array apenas com os elementos que atendem a condição especificada. 
 
+### Método sort()
 
+Não é uma ordenação estável, ou seja, não é a ordenação esperada necessariamente, o tempo de execução depende da quantidade de memória que será utilizada. 
 
+- Usado para ordenar os elementos de um array;
+- altera o array original;
+- ordena de forma simples com base nos valores unicode nos caracteres;
+- para uma ordenação mais complexa, especialmente para números, é possível fornecer uma função de comparação como argumento para o método sort()
+- sem a função de comparação o sort() cpnverte os elementos do array para strings e compara seus valores unicode, ao lidar com números é recomendável passar uma função de comparação. 
+
+### Unicode
+
+É um padrão que atribui um número unico (ponto de código) a cada caractere, abrange praticamente todos os sistemas de escrita do mundo. A codificação permite representar textos em diferentes idiomas e incluí simbolos especiais. Esses pontos de código são representados em hexadecimal. 
+
+Exemplos: 
+
+- Caractere A : Ponto de código Unicode U+0041
+- Caractere Ç : Ponto de código Unicode U+00E7
 
 
 

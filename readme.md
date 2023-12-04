@@ -44,6 +44,12 @@ Cria um novo array com os elementos que passam passam por um teste implementado 
 - Filtra os elementos do array com base em uma condição especifica. 
 - Não altera o array original, retorna um novo array apenas com os elementos que atendem a condição especificada. 
 
+### Método reduce()
+
+Método de array, usado para reduzir os elementos de um array a um único valor. Ele usa uma função callback para cadaelemento do array, acumulando um resultado final. 
+
+Pode ser utilizado para uma variedade de operações, como encontrar o valor máximo ou minimo, concatenar strings, contar ocorrências e mais. 
+
 ### Método sort()
 
 Não é uma ordenação estável, ou seja, não é a ordenação esperada necessariamente, o tempo de execução depende da quantidade de memória que será utilizada. 
@@ -62,6 +68,10 @@ Exemplos:
 
 - Caractere A : Ponto de código Unicode U+0041
 - Caractere Ç : Ponto de código Unicode U+00E7
+
+
+
+
 
 
 

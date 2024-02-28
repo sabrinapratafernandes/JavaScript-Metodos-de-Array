@@ -1,6 +1,9 @@
 # JavaScript: Metodos de Array
 
-Curso em andamento
+Curso Alura - Concluído
+
+Certificado: <a href="https://cursos.alura.com.br/certificate/06d2578c-bd34-476d-b1ae-a27718c900af?lang=pt_BR">Clique aqui</a>
+Certificate: <a href="https://cursos.alura.com.br/certificate/06d2578c-bd34-476d-b1ae-a27718c900af?lang=en">Clique aqui</a>
 
 ## Notas: 
 
